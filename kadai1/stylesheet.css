@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+.main {
+  flex-grow: 1;
+  display: flex;
+  background: #ddd;
+}
+.sidebar {
+  background: #fab;
+}
+.sidebar > div {
+  text-align: center;
+  padding: 8px;
+  width: 200px;
+  border-bottom: 1px solid #eee;
+}
+.content {
+  background: #fa1;
+  flex-grow: 1;
+  padding: 15px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.box-child {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 0 10px 20px;
+}
